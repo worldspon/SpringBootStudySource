@@ -44,6 +44,13 @@
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
+				<!--
+					logBack 외 다른 로깅 모듈로 교체하고 싶을 경우 spring-boot-starter-logging 을 DI 에서 제외한다.
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+				-->
 			</exclusions>
 		</dependency>
 		<!--
@@ -54,6 +61,13 @@
 			<artifactId>spring-boot-starter-undertow</artifactId>
 		</dependency>
 
+		<!--
+			logBack을 DI 에서 제외한 후 원하는 로깅 모듈을 DI 한다.
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
+		-->
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-client</artifactId>

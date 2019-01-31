@@ -4,12 +4,18 @@ spring:
       enabled: true
   thymeleaf:
     cache: true
-  output:
-    ansi:
-      enabled: ALWAYS
   # @Profile 어노테이션을 통해 스프링 부트 애플리케이션의 런타임 환경을 관리할 수 있다.
   profiles:
     active: prod # 프로파일 식별자
+
+  output:
+    ansi:
+      enabled: ALWAYS # Console에 출력되는 로깅 메세지를 색으로 구분해서 출력한다.
+
+logging:
+  path: logs # 로그 내용이 저장되는 로그 디렉토리 위치
+  level:
+    com.johnny.study: DEBUG # logging.level.{패키지 경로}를 통해 로깅 레벨을 결정할 수 있다.
 
 # com.tutorial.testautoconfigure property
 holo:

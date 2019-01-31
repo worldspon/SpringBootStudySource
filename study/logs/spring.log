@@ -1,0 +1,144 @@
+2019-01-31 18:43:21.466  INFO 8840 --- [restartedMain] com.johnny.study.StudyApplication        : Starting StudyApplication on DESKTOP-N7IG9E9 with PID 8840 (D:\git_directory\SpringBootStudySource\study\target\classes started by Johnny in D:\git_directory\SpringBootStudySource\study)
+2019-01-31 18:43:21.467 DEBUG 8840 --- [restartedMain] com.johnny.study.StudyApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-31 18:43:21.468  INFO 8840 --- [restartedMain] com.johnny.study.StudyApplication        : The following profiles are active: prod
+2019-01-31 18:43:21.500  INFO 8840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-31 18:43:22.142  INFO 8840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 18:43:22.162  INFO 8840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-31 18:43:22.440  INFO 8840 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$affcde23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 18:43:22.552  INFO 8840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-31 18:43:22.664  INFO 8840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-31 18:43:22.715  INFO 8840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-31 18:43:22.762  INFO 8840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-31 18:43:22.763  INFO 8840 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-31 18:43:22.925  INFO 8840 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-31 18:43:23.829  INFO 8840 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-31 18:43:24.003  INFO 8840 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@50c9357f'
+2019-01-31 18:43:24.006  INFO 8840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:43:24.027  INFO 8840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-31 18:43:24.462  WARN 8840 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-31 18:43:24.515  INFO 8840 --- [restartedMain] com.johnny.study.StudyApplication        : Started StudyApplication in 3.345 seconds (JVM running for 3.767)
+2019-01-31 18:43:24.516  INFO 8840 --- [restartedMain] com.johnny.study.runner.AppRunner        : ============ AppRunner ============
+2019-01-31 18:43:24.516  INFO 8840 --- [restartedMain] com.johnny.study.runner.AppRunner        : This is wrote for logback!!!!!!!!!
+2019-01-31 18:43:24.516  INFO 8840 --- [restartedMain] com.johnny.study.runner.AppRunner        : ================================
+2019-01-31 18:43:24.522  INFO 8840 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:43:24.522  INFO 8840 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-01-31 18:43:24.526  INFO 8840 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2019-01-31 18:43:24.526  INFO 8840 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-31 18:43:24.527  INFO 8840 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-31 18:43:57.377  INFO 4320 --- [restartedMain] com.johnny.study.StudyApplication        : Starting StudyApplication on DESKTOP-N7IG9E9 with PID 4320 (D:\git_directory\SpringBootStudySource\study\target\classes started by Johnny in D:\git_directory\SpringBootStudySource\study)
+2019-01-31 18:43:57.379 DEBUG 4320 --- [restartedMain] com.johnny.study.StudyApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-31 18:43:57.379  INFO 4320 --- [restartedMain] com.johnny.study.StudyApplication        : The following profiles are active: prod
+2019-01-31 18:43:57.417  INFO 4320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-31 18:43:58.175  INFO 4320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 18:43:58.193  INFO 4320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-31 18:43:58.544  INFO 4320 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ecbb8da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 18:43:58.664  INFO 4320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-31 18:43:58.774  INFO 4320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-31 18:43:58.827  INFO 4320 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-31 18:43:58.881  INFO 4320 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-31 18:43:58.882  INFO 4320 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-31 18:43:59.039  INFO 4320 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-31 18:43:59.170  INFO 4320 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-31 18:43:59.381  INFO 4320 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@78d5e4c6'
+2019-01-31 18:43:59.384  INFO 4320 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:43:59.403  INFO 4320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-31 18:43:59.949  WARN 4320 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-31 18:44:00.022  INFO 4320 --- [restartedMain] com.johnny.study.StudyApplication        : Started StudyApplication in 3.005 seconds (JVM running for 4.485)
+2019-01-31 18:44:00.024  INFO 4320 --- [restartedMain] com.johnny.study.runner.AppRunner        : ============ AppRunner ============
+2019-01-31 18:44:00.025  INFO 4320 --- [restartedMain] com.johnny.study.runner.AppRunner        : This is wrote for logback!!!!!!!!!
+2019-01-31 18:44:00.025  INFO 4320 --- [restartedMain] com.johnny.study.runner.AppRunner        : ================================
+2019-01-31 18:44:00.035  INFO 4320 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:00.035  INFO 4320 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-01-31 18:44:00.040  INFO 4320 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2019-01-31 18:44:00.041  INFO 4320 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-31 18:44:00.042  INFO 4320 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-31 18:44:09.211  INFO 15656 --- [restartedMain] com.johnny.study.StudyApplication        : Starting StudyApplication on DESKTOP-N7IG9E9 with PID 15656 (D:\git_directory\SpringBootStudySource\study\target\classes started by Johnny in D:\git_directory\SpringBootStudySource\study)
+2019-01-31 18:44:09.213 DEBUG 15656 --- [restartedMain] com.johnny.study.StudyApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-31 18:44:09.213  INFO 15656 --- [restartedMain] com.johnny.study.StudyApplication        : The following profiles are active: prod
+2019-01-31 18:44:09.246  INFO 15656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-31 18:44:09.927  INFO 15656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 18:44:09.945  INFO 15656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-01-31 18:44:10.235  INFO 15656 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c251ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 18:44:10.336  INFO 15656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-31 18:44:10.442  INFO 15656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-31 18:44:10.487  INFO 15656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-31 18:44:10.534  INFO 15656 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-31 18:44:10.535  INFO 15656 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-31 18:44:10.693  INFO 15656 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-31 18:44:11.544  INFO 15656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-31 18:44:11.706  INFO 15656 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@41d652b'
+2019-01-31 18:44:11.708  INFO 15656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:11.723  INFO 15656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-31 18:44:12.189  WARN 15656 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-31 18:44:12.255  INFO 15656 --- [restartedMain] com.johnny.study.StudyApplication        : Started StudyApplication in 3.365 seconds (JVM running for 3.8)
+2019-01-31 18:44:12.257  INFO 15656 --- [restartedMain] com.johnny.study.runner.AppRunner        : ============ AppRunner ============
+2019-01-31 18:44:12.257  INFO 15656 --- [restartedMain] com.johnny.study.runner.AppRunner        : This is wrote for logback!!!!!!!!!
+2019-01-31 18:44:12.257  INFO 15656 --- [restartedMain] com.johnny.study.runner.AppRunner        : ================================
+2019-01-31 18:44:12.264  INFO 15656 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:12.264  INFO 15656 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-01-31 18:44:12.268  INFO 15656 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2019-01-31 18:44:12.268  INFO 15656 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-31 18:44:12.269  INFO 15656 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-31 18:44:21.458  INFO 5516 --- [restartedMain] com.johnny.study.StudyApplication        : Starting StudyApplication on DESKTOP-N7IG9E9 with PID 5516 (D:\git_directory\SpringBootStudySource\study\target\classes started by Johnny in D:\git_directory\SpringBootStudySource\study)
+2019-01-31 18:44:21.460  INFO 5516 --- [restartedMain] com.johnny.study.StudyApplication        : The following profiles are active: prod
+2019-01-31 18:44:21.492  INFO 5516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-31 18:44:22.149  INFO 5516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 18:44:22.173  INFO 5516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-01-31 18:44:22.440  INFO 5516 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bf4e62a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 18:44:22.537  INFO 5516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-31 18:44:22.644  INFO 5516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-31 18:44:22.690  INFO 5516 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-31 18:44:22.737  INFO 5516 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-31 18:44:22.738  INFO 5516 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-31 18:44:22.897  INFO 5516 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-31 18:44:23.754  INFO 5516 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-31 18:44:23.922  INFO 5516 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@78442379'
+2019-01-31 18:44:23.925  INFO 5516 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:23.943  INFO 5516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-31 18:44:24.427  WARN 5516 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-31 18:44:24.487  INFO 5516 --- [restartedMain] com.johnny.study.StudyApplication        : Started StudyApplication in 3.328 seconds (JVM running for 3.771)
+2019-01-31 18:44:24.488  INFO 5516 --- [restartedMain] com.johnny.study.runner.AppRunner        : ============ AppRunner ============
+2019-01-31 18:44:24.488  INFO 5516 --- [restartedMain] com.johnny.study.runner.AppRunner        : This is wrote for logback!!!!!!!!!
+2019-01-31 18:44:24.489  INFO 5516 --- [restartedMain] com.johnny.study.runner.AppRunner        : ================================
+2019-01-31 18:44:24.495  INFO 5516 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:24.496  INFO 5516 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-01-31 18:44:24.501  INFO 5516 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2019-01-31 18:44:24.501  INFO 5516 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-31 18:44:24.503  INFO 5516 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-31 18:44:32.602  INFO 6984 --- [restartedMain] com.johnny.study.StudyApplication        : Starting StudyApplication on DESKTOP-N7IG9E9 with PID 6984 (D:\git_directory\SpringBootStudySource\study\target\classes started by Johnny in D:\git_directory\SpringBootStudySource\study)
+2019-01-31 18:44:32.604 DEBUG 6984 --- [restartedMain] com.johnny.study.StudyApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-31 18:44:32.604  INFO 6984 --- [restartedMain] com.johnny.study.StudyApplication        : The following profiles are active: prod
+2019-01-31 18:44:32.638  INFO 6984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-31 18:44:33.260  INFO 6984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-31 18:44:33.279  INFO 6984 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-31 18:44:33.545  INFO 6984 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8de7547] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-31 18:44:33.641  INFO 6984 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-31 18:44:33.746  INFO 6984 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-31 18:44:33.791  INFO 6984 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-31 18:44:33.841  INFO 6984 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-31 18:44:33.842  INFO 6984 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-31 18:44:33.996  INFO 6984 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-31 18:44:34.856  INFO 6984 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-31 18:44:35.017  INFO 6984 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44c47341'
+2019-01-31 18:44:35.019  INFO 6984 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:35.035  INFO 6984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-31 18:44:35.507  WARN 6984 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-31 18:44:35.564  INFO 6984 --- [restartedMain] com.johnny.study.StudyApplication        : Started StudyApplication in 3.267 seconds (JVM running for 3.704)
+2019-01-31 18:44:35.565  INFO 6984 --- [restartedMain] com.johnny.study.runner.AppRunner        : ============ AppRunner ============
+2019-01-31 18:44:35.565  INFO 6984 --- [restartedMain] com.johnny.study.runner.AppRunner        : This is wrote for logback!!!!!!!!!
+2019-01-31 18:44:35.565  INFO 6984 --- [restartedMain] com.johnny.study.runner.AppRunner        : ================================
+2019-01-31 18:44:35.573  INFO 6984 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-31 18:44:35.573  INFO 6984 --- [Thread-10] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-01-31 18:44:35.579  INFO 6984 --- [Thread-10] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2019-01-31 18:44:35.579  INFO 6984 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-31 18:44:35.581  INFO 6984 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

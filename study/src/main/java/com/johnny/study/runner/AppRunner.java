@@ -1,6 +1,8 @@
 package com.johnny.study.runner;
 
 import com.johnny.study.properties.HolomanProperties;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
@@ -98,6 +100,7 @@ public class AppRunner implements ApplicationRunner {
 
 
 
+    /*
     @Autowired
     private String hello;
 
@@ -106,5 +109,18 @@ public class AppRunner implements ApplicationRunner {
         System.out.println("============ AppRunner ============");
         System.out.println(hello);
         System.out.println("================================");
+    }
+    */
+
+
+
+    // slf4j 로깅 파서드(로깅 모듈을 추상화한 것)를 통해 logback 로깅 모듈 지원
+    private Logger log = LoggerFactory.getLogger(this.getClass());
+
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        log.info("============ AppRunner ============");
+        log.info("This is wrote for logback!!!!!!!!!");
+        log.info("================================");
     }
 }
