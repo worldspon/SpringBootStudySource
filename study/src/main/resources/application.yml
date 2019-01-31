@@ -7,9 +7,13 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
+  # @Profile 어노테이션을 통해 스프링 부트 애플리케이션의 런타임 환경을 관리할 수 있다.
+  profiles:
+    active: prod # 프로파일 식별자
 
 # com.tutorial.testautoconfigure property
 holo:
+  #name: # @NotNull 테스트 용 빈 값 설정 - HolomanProperties 클래스 확인
   name: johnny_2
   how-long: ${random.int(10,100)} # Spring 변수
   full-name: ${holo.name} Uhm # 플레이스 홀더 형태

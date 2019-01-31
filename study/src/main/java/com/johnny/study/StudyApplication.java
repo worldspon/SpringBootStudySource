@@ -24,14 +24,13 @@ public class StudyApplication {
 	public static void main(String[] args) {
 		// SpringApplication.run(StudyApplication.class, args);
 
-		/*
 		// 스프링 부트를 웹 애플리케이션이 아닌 일반 애플리케이션으로 띄우는 방법
 		SpringApplication application = new SpringApplication(StudyApplication.class);
 		application.setWebApplicationType(WebApplicationType.NONE);
 		application.run(args);
-		*/
 
 
+		/*
 		// 이벤트 리스너를 등록하여 애플리케이션을 실행한다.
 		SpringApplication application = new SpringApplication(StudyApplication.class);
 		application.addListeners(new AppStartedSampleListener());
@@ -40,6 +39,7 @@ public class StudyApplication {
 		// 3. 전부 없을 경우 @ConfigApplicationContext로 3가지 타입 모두 "자동 설정"
 		application.setWebApplicationType(WebApplicationType.SERVLET); // 웹 애플리케이션 타입 지정
 		application.run();
+		*/
 	}
 
 

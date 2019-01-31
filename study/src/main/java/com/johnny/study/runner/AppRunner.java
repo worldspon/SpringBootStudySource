@@ -53,6 +53,8 @@ public class AppRunner implements ApplicationRunner {
     }
     */
 
+
+
     /*
     // application.yml에 정의한 속성 값들을 @Value 스프링 어노테이션으로 바인딩함
     @Value("${holo.name}")
@@ -73,6 +75,12 @@ public class AppRunner implements ApplicationRunner {
     */
 
 
+
+
+
+
+
+    /*
     // properties 패키지의 HoloManProperties를 불러와서 프로퍼티의 값을 받아온다. @ConfigurationProperties 어노테이션의 역할
     @Autowired
     HolomanProperties holoProperties;
@@ -83,6 +91,20 @@ public class AppRunner implements ApplicationRunner {
         System.out.println("name : " + holoProperties.getName());
         System.out.println("howLong : " + holoProperties.getHowLong());
         System.out.println("fullName : " + holoProperties.getFullName());
+        System.out.println("================================");
+    }
+    */
+
+
+
+
+    @Autowired
+    private String hello;
+
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        System.out.println("============ AppRunner ============");
+        System.out.println(hello);
         System.out.println("================================");
     }
 }
