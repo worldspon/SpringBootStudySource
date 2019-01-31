@@ -22,12 +22,15 @@ public class StudyApplication {
 	// DispatcherServletAutoConfiguration
 
 	public static void main(String[] args) {
-		// SpringApplication.run(StudyApplication.class, args);
+		SpringApplication.run(StudyApplication.class, args);
 
+
+		/*
 		// 스프링 부트를 웹 애플리케이션이 아닌 일반 애플리케이션으로 띄우는 방법
 		SpringApplication application = new SpringApplication(StudyApplication.class);
 		application.setWebApplicationType(WebApplicationType.NONE);
 		application.run(args);
+		*/
 
 
 		/*

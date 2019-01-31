@@ -88,6 +88,10 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<!--
+			스프링 부트 테스트를 작업하기 위해서는 spring-boot-starter-test를 DI 해야한다.
+		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
