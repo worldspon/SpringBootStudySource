@@ -115,6 +115,20 @@
 			<version>2.9.6</version>
 		</dependency>
 
+		<!--
+			HTML 템플릿 뷰 테스트를 보다 전문적으로 할 수 있는 htmlunit 의존성을 DI 한다.
+		-->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>htmlunit-driver</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.htmlunit</groupId>
+			<artifactId>htmlunit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
 
 		<!--
 			커스터마이징한 AutoConfigure 라이브러리
