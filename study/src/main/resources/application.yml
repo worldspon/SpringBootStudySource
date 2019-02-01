@@ -1,9 +1,9 @@
 spring:
   devtools:
     livereload:
-      enabled: true
+      enabled: true # 실시간 리로딩 기능 활성화 (프로젝트 빌드가 완료되면 애플리케이션을 스스로 재시작시켜줌.)
   thymeleaf:
-    cache: true
+    cache: true # 타임리프 템플릿 및 정적 리소스 캐시 활성화 | 만약 수정한 정적 리소스들을 브라우저에서 반영받고 싶다면 브라우저를 강제 새로고침 하거나 캐시를 비우면 된다.
   # @Profile 어노테이션을 통해 스프링 부트 애플리케이션의 런타임 환경을 관리할 수 있다.
   profiles:
     active: prod # 프로파일 식별자
@@ -13,7 +13,7 @@ spring:
       enabled: ALWAYS # Console에 출력되는 로깅 메세지를 색으로 구분해서 출력한다.
 
 logging:
-  path: logs # 로그 내용이 저장되는 로그 디렉토리 위치
+  #path: logs # 로그 내용이 저장되는 로그 디렉토리 위치
   level:
     com.johnny.study: DEBUG # logging.level.{패키지 경로}를 통해 로깅 레벨을 결정할 수 있다.
 
