@@ -106,6 +106,15 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
+		<!--
+			스프링 부트에서 XML 데이터를 서버에서 핸들링하기 위해서는 XML 메시지 컨버터를 DI 한다.
+		-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>2.9.6</version>
+		</dependency>
+
 
 		<!--
 			커스터마이징한 AutoConfigure 라이브러리
