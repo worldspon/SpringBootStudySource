@@ -1,4 +1,4 @@
-package com.johnny.study.controller;
+package com.johnny.study.service;
 
 import org.springframework.stereotype.Service;
 

@@ -98,6 +98,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--
+			스프링 부트 웹 애플리케이션 '비동기' 통신 테스트 시 webflux 라이브러리의 WebTestClient를 사용한다.
+		-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
 
 		<!--
 			커스터마이징한 AutoConfigure 라이브러리

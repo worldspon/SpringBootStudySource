@@ -30,10 +30,10 @@ server:
   port: 8080  # 내장 웹 서버 포트 설정
   compression:
     enabled: true # css, js, html등 압축 전송할 때 이득이 되는 포맷들을 자동 압축해서 전송시키는 옵션 = 데이터 사용량 감소 (Default: false)
-  ssl: # SSL 설정 (HTTPS)
-    key-store: keystore.p12
-    key-store-type: PKCS12
-    key-store-password: worldspon
-    key-alias: spring
+  #ssl: # SSL 설정 (HTTPS)
+    #key-store: testkeystore.p12
+    #key-store-type: PKCS12
+    #key-store-password: worldspon
+    #key-alias: localhost # spring = keystore.p12 | localhost = testkeystore.p12
   #http2:
     #enabled: true  # http2 옵션 설정 JDK 9 이상 에서만 옵션을 사용하길 권장 (Default: false) / 반드시 https 설정을 함께 해줘야 함
