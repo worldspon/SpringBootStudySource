@@ -1,0 +1,16 @@
+# DBCP settings
+# 커넥션은 CPU 코어의 개수만큼 스레드로 동작하는 방식이기 때문에 CPU 코어 수 만큼 설정해주는 것이 좋다.
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 4 # 최대 커넥션 풀 객체 생성 수
+
+    # MySQL 설정
+    #url: jdbc:mysql://localhost:3306/springboot
+    #username: npcdja
+    #password: 1234
+
+    # PostgreSQL 설정
+    url: jdbc:postgresql://localhost:5432/springboot
+    username: npcdja
+    password: 1234
