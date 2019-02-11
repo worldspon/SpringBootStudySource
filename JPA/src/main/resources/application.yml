@@ -1,0 +1,16 @@
+# 커넥션 객체 최대 생성 갯수 설정
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 4
+    # PostgreSQL DB 서버 정보 설정
+    url: jdbc:postgresql://localhost:5432/springboot
+    username: npcdja
+    password: 1234
+  # jdbc가 createClub을 지원하지 않아 warning이 발생하는 것 방지
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
